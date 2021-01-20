@@ -1,0 +1,22 @@
+{
+  "name": "notadev-music-rewrite",
+  "version": "1.0.0",
+  "description": "Rewrite version of Not A Dev Music Bot Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mednoob",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "axios": "^0.21.1",
+    "discord-ytdl-core": "^5.0.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "util": "^0.12.3",
+    "youtube-sr": "^3.0.0",
+    "ytdl-core": "^4.4.3"
+  }
+}
