@@ -5,5 +5,5 @@
                                                      
            © Not A 開発者 2021 | Please, do not use our project as a commercial project. Instead, you can contribute on writing it. Also, please do not remove the credit                        */
 require("dotenv").config()
-const MusicClient = require("./classes/MusicClient")
+const MusicClient = require("./src/classes/MusicClient")
 new MusicClient().intialize()
