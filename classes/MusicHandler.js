@@ -1,3 +1,4 @@
+const ytdl = require('discord-ytdl-core')
 class MusicHandler {
 
     /**
@@ -24,24 +25,14 @@ class MusicHandler {
             this.client.queue.delete(message.guild.id)
             return queue.textChannel.send("🚫 Music queue ended.").catch(console.error);
         }
-
-        try {
-            var stream = require("discord-ytdl-core")(song.url, {
-                filter: "audioonly",
-                encoderArgs: ["-af"],
-                opusEncoded: true,
+            const stream = await ytdl(song.url, {
+                filter: 'audioonly',
                 quality: "highestaudio",
-                fmt: "mp3",
+                opusEncoded: true,
+                seek: 0 / 1000,
                 highWaterMark: 1 << 25
             })
-            const tipeof = typeof stream
-            console.log(tipeof)
-        } catch (err) {
-            if(queue) {
-                queue.songs.shift()
-                this.play(queue.songs[0], message)
-            }
-        }
+       
 
         const dispatcher = queue.connection
         .play(stream, {type: "opus", bitrate: "auto"})
