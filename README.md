@@ -13,7 +13,7 @@ Made by Not A 開発者 Rewrite Team: `rnggadosen._`, `Mednoob`, and `KagChi`
 4. Done!
 
 ### Manually
-1. Clone this repository`$ git clone https://github.com/Client-Developer-ID/music-rewrite.git`
+1. Clone this repository `$ git clone https://github.com/Client-Developer-ID/music-rewrite.git`
 2. Open the cloned repository `$ cd music-rewrite`
 3. Rename `.env.schema` file to `.env`
 4. Put your bot token in `.env`
