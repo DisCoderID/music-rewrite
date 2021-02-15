@@ -1,4 +1,4 @@
-/*                                                             Client Developer Music Bot Example
+/*                                                             Not A 開発者 Music Bot Example
                                                          1. Put Bot Token and Youtube API Key in .env file
                                                            2. Put Prefix and Your User ID in config.json
                                                                           3. Modify It!
