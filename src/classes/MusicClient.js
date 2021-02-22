@@ -42,7 +42,7 @@ class MusicClient extends discord.Client {
         this.commands = new discord.Collection()
         this.aliases = new discord.Collection()
         this.prefix = require("../../config.json").prefix
-        this.queue = new Map()
+        this.queue = new discord.Collection()
         this.handler = new (require("./MusicHandler"))(this)
     }
     /**
