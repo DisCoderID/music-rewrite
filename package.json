@@ -20,7 +20,7 @@
     "ffmpeg-static": "^4.2.7",
     "fs": "0.0.1-security",
     "util": "^0.12.3",
-    "youtube-sr": "^3.0.4",
+    "youtube-sr": "^4.0.1",
     "ytdl-core": "^4.4.3"
   }
 }
