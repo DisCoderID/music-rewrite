@@ -21,5 +21,7 @@ Made by Not A 開発者 Rewrite Team ([@Client-Developer-ID/rewrite](https://git
 2. Open the cloned repository `$ cd music-rewrite`
 3. Rename `.env.schema` file to `.env`
 4. Put your bot token in `.env`
-5. Run the bot by typing `$ node .` in terminal
-6. Done!
+5. Replace `prefix` in `config.json` with prefix that you wanted
+6. Replace `id` in `config.json` with your own discord id (or just keep it)
+7. Run the bot by typing `$ node .` in terminal
+8. Done!
