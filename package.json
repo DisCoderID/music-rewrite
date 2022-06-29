@@ -20,7 +20,7 @@
     "dotenv": "^8.2.0",
     "eslint": "^7.19.0",
     "express": "^4.17.1",
-    "ffmpeg-static": "^4.2.7",
+    "ffmpeg-static": "^5.0.2",
     "fs": "0.0.1-security",
     "util": "^0.12.3",
     "youtube-sr": "^4.0.1",
